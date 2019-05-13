@@ -11,7 +11,7 @@ from gym.utils import seeding
 import numpy as np
 import csv
 
-class CartPoleEnv_adv(gym.Env):
+class CartPoleEnv_cost(gym.Env):
     """
     Description:
         A pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The pendulum starts upright, and the goal is to prevent it from falling over by increasing and reducing the cart's velocity.
@@ -135,8 +135,7 @@ class CartPoleEnv_adv(gym.Env):
             theta_dot = theta_dot + self.tau * thetaacc
             theta = theta + self.tau * theta_dot
         self.state = np.array([x, x_dot, theta, theta_dot])
-        done = x < 0 \
-               or x > self.x_threshold \
+        done = abs(x) > self.x_threshold \
                or theta < -self.theta_threshold_radians \
                or theta > self.theta_threshold_radians
         done = bool(done)
@@ -153,7 +152,8 @@ class CartPoleEnv_adv(gym.Env):
         cost = COST_V1(r1, r2, e1, e2, x, x_dot, theta, theta_dot)
         # cost = 0.1+10*max(0, (self.theta_threshold_radians - abs(theta))/self.theta_threshold_radians) \
         #     #+ 5*max(0, (self.x_threshold - abs(x-self.target_pos))/self.x_threshold)\
-        l_rewards = 20* max((abs(x)-0.8*self.cons_pos), 0)**2/100 #+ 20 *(max((abs(theta)-0.8*self.theta_threshold_radians), 0)/ self.theta_threshold_radians)**2
+        cost = 1* x**2/100 + 20 *(theta/ self.theta_threshold_radians)**2
+        l_rewards = 0
         if abs(x)>self.cons_pos:
             violation_of_constraint = 1
         else:
@@ -169,7 +169,7 @@ class CartPoleEnv_adv(gym.Env):
     def reset(self):
         self.state = self.np_random.uniform(low=-0.2, high=0.2, size=(4,))
         # self.state[0] = self.np_random.uniform(low=5, high=6)
-        self.state[0] = self.np_random.uniform(low=1, high=9)
+        self.state[0] = self.np_random.uniform(low=-5, high=5)
         self.steps_beyond_done = None
         return np.array(self.state)
 

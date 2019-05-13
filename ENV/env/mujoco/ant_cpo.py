@@ -7,31 +7,6 @@ class AntEnv_cpo(mujoco_env.MujocoEnv, utils.EzPickle):
         mujoco_env.MujocoEnv.__init__(self, 'ant.xml', 5)
         utils.EzPickle.__init__(self)
 
-    # def step(self, a):
-    #     self.do_simulation(a, self.frame_skip)
-    #     xposafter = self.get_body_com("torso")[0]
-    #     lb=np.array([-1.,-1.,-1.,-1.,-1. ,-1.,-1. ,-1.])
-    #     ub=np.array([1.,1. ,1., 1. ,1. ,1.,1. ,1.])
-    #     scaling = (ub - lb) * 0.5
-    #     forward_reward = xposafter
-    #     ctrl_cost = 0.5 * 1e-2 * np.sum(np.square(a / scaling))
-    #     contact_cost = 0
-    #     survive_reward = 0.05
-    #     reward = forward_reward - ctrl_cost - contact_cost + survive_reward
-    #     state = self.state_vector()
-    #     notdone = np.isfinite(state).all() \
-    #         and state[2] >= 0.2 and state[2] <= 1.0
-    #     done = not notdone
-    #     ob = self._get_obs()
-    #     l_rewards = max(abs(xposafter) - 3, 0)
-    #     #     l_rewards = l_rewards#- ctrl_cost - contact_cost + survive_reward
-    #     return ob, reward, done, dict(
-    #         reward_forward=forward_reward,
-    #         reward_ctrl=-ctrl_cost,
-    #         reward_contact=-contact_cost,
-    #         reward_survive=survive_reward,
-    #         l_rewards=l_rewards
-    #     )
     def step(self, a):
         xposbefore = self.get_body_com("torso")[0]
         self.do_simulation(a, self.frame_skip)

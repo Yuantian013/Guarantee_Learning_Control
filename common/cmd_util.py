@@ -9,6 +9,8 @@ except ImportError:
     MPI = None
 
 import gym
+# import ENV.env
+
 from gym.wrappers import FlattenDictWrapper
 import logger
 from bench import Monitor

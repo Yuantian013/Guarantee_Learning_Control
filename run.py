@@ -2,10 +2,12 @@ import sys
 import multiprocessing
 import os.path as osp
 import gym
+
 from collections import defaultdict
 import tensorflow as tf
 import numpy as np
 import os
+import ENV.env
 from common.vec_env import VecFrameStack, VecNormalize, VecEnv
 from common.vec_env.vec_video_recorder import VecVideoRecorder
 from common.cmd_util import common_arg_parser, parse_unknown_args, make_vec_env, make_env
@@ -153,7 +155,6 @@ def get_env_type(args):
                 env_type = g
                 break
         assert env_type is not None, 'env_id {} is not recognized in env types'.format(env_id, _game_envs.keys())
-
     return env_type, env_id
 
 
@@ -266,42 +267,22 @@ if __name__ == '__main__':
     start_time = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-")
     for i in range(0,num_of_trials):
     # log_path = './log/' + datetime.datetime.now().strftime("openai-%Y-%m-%d-%H-%M-%S-%f")
-        alg = 'ppo2_lyapunov'
-        # additional_description = '-low-lambda-1e-16'
-        # additional_description = '-lambda-1e-1_alpha-0.005'
+        alg = 'ppo2'
         additional_description ='-clip-0.8'
-        # env = 'Antcpo-v1'
-        # env = 'HalfCheetah-v4'
-        # env = 'FetchReach-v1'
-        env = 'Point-v1'
-        # env = 'Cartpole-v3'
-        # env = 'PongNoFrameskip-v4'
-        # env = 'Quadrotor-v1'
-        # log_path = './log/' +env + '/'+ alg+'/'+ datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
+        # env = 'Pointcircle-v0'
+        env = 'Antcons-v0'
+        # env = 'HalfCheetahcons-v0'
+        # env = 'Quadrotorcons-v0'
+        env = 'PongNoFrameskip-v5'
+        # env = 'Point-v1'
         log_path = './log/' + env + '/' + alg + additional_description + '/' + str(i)
         alg = ['--alg=' + alg]
         eval = ['--evaluate=False']
         n_of_paths = ['--evaluation_paths=10']
 
-
-        # For train+
-        # info=['--num_timesteps=1e7','--save_path=./Model/Ant_dis_v1']
-        # info = ['--num_timesteps=1e7', '--save_path=./Model/Ant_l_dis_v1']
-        # info = ['--num_timesteps=2e6', '--save_path=./Model/Ant_l_v_v1']
-        # info = ['--num_timesteps=2e6', '--save_path=./Model/Ant_v_v1']
-        # info = ['--num_timesteps=1e6', '--save_path=./Model/Ant_gym_baseline']
-        # info = ['--num_timesteps=1e6', '--save_path=./Model/Ant_lya_baseline']
         info = ['--num_timesteps=1e6', '--save_path=./Model/'+env]
 
-        # info = ['--num_timesteps=1e5', '--save_path=./Model/'+env,'--cliprange=0.1', '--lr=1e-4']  # work important
         env = ['--env=' + env, ]
-        # info = ['--num_timesteps=1e6', '--save_path=./Model/HalfCheetah_lya_distance_0.1']
-        # For test
-        # info = ['--num_timesteps=0', '--load_path=./Model/Ant_baseline', '--play']
-        # info = ['--num_timesteps=0', '--load_path=./Model/Ant_l_dis_v0', '--play']
-        # info = ['--num_timesteps=0', '--load_path=./Model/Ant_v_v1', '--play']
-        # info = ['--num_timesteps=0', '--load_path=./Model/HalfCheetah_lya_distance_0.1', '--play']
-
         sys.argv = sys.argv + alg + env + info + eval + n_of_paths
         main(sys.argv)
         tf.reset_default_graph()

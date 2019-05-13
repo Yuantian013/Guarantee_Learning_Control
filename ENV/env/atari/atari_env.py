@@ -114,7 +114,7 @@ class AtariEnv(gym.Env, utils.EzPickle):
                     max_pos=min_pos+15
                 pos=max_pos
             l_rewards=max(pos-150,0.)
-        return ob, reward, self.ale.game_over(), {"ale.lives": self.ale.lives(),"l_rewards":l_rewards}
+        return ob, reward, self.ale.game_over(), {"ale.lives": self.ale.lives(),"l_rewards":l_rewards,"violation_of_constraint":0}
 
     def _get_image(self):
         return self.ale.getScreenRGB2()
