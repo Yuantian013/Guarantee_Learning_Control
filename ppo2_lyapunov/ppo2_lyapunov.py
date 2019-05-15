@@ -19,7 +19,7 @@ def constfn(val):
     return f
 
 def learn(*, network, env, total_timesteps,n_of_paths=10, eval_env = None, seed=None, nsteps=2048, ent_coef=0.0, lr=3e-4,
-            vf_coef=0.5,lf_coef=0.5, max_grad_norm=0.5, gamma=0.99, lam=0.95, alpha3 = .005, init_labda = 1.,labda_clip_range = 0.8,
+            vf_coef=0.5,lf_coef=0.5, max_grad_norm=0.5, gamma=0.99, lam=0.95, alpha3 = .005, init_labda = 1.,labda_clip_range = 0.1,
             log_interval=10, nminibatches=4, noptepochs=4, cliprange=0.2, use_adaptive_alpha3=True,approximate_value_function=False,
             save_interval=0, load_path=None, model_fn=None, **network_kwargs):
     '''
@@ -208,6 +208,7 @@ def learn(*, network, env, total_timesteps,n_of_paths=10, eval_env = None, seed=
                 ep_L_R_threshold = ep_L_R
                 # model.ALPHA=min(model.ALPHA*1.05,0.1)  good  with out nothing and ini 10-5
                 model.alpha3 = min(model.alpha3 * 1.5, labda_clip_range)
+                # model.alpha3 = min(model.alpha3 * 1.1, labda_clip_range)
 
             # model.ALPHA = min(model.ALPHA * 1.001, 0.1)
             model.alpha3 = min(model.alpha3 * 1.01, labda_clip_range)

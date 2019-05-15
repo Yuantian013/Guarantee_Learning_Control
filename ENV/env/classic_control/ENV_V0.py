@@ -65,7 +65,7 @@ class CartPoleEnv_cons(gym.Env):
         self.force_mag = 20
         self.tau = 0.02  # seconds between state updates
         self.kinematics_integrator = 'euler'
-        self.cons_pos = 4
+        self.cons_pos = 5
         self.target_pos = 6
         # Angle at which to fail the episode
         self.theta_threshold_radians = 20 * 2 * math.pi / 360
@@ -134,7 +134,7 @@ class CartPoleEnv_cons(gym.Env):
             x = x + self.tau * x_dot
             theta_dot = theta_dot + self.tau * thetaacc
             theta = theta + self.tau * theta_dot
-        self.state = np.array([x, x_dot, theta, theta_dot])
+        self.state = np.array([x, x_dot[0], theta, theta_dot[0]])
         done = x < 0 \
                or x > self.x_threshold \
                or theta < -self.theta_threshold_radians \
@@ -169,7 +169,7 @@ class CartPoleEnv_cons(gym.Env):
     def reset(self):
         self.state = self.np_random.uniform(low=-0.2, high=0.2, size=(4,))
         # self.state[0] = self.np_random.uniform(low=5, high=6)
-        self.state[0] = self.np_random.uniform(low=1, high=9)
+        self.state[0] = self.np_random.uniform(low=1, high=self.cons_pos)
         self.steps_beyond_done = None
         return np.array(self.state)
 

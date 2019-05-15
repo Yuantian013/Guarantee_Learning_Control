@@ -134,7 +134,7 @@ class CartPoleEnv_cost(gym.Env):
             x = x + self.tau * x_dot
             theta_dot = theta_dot + self.tau * thetaacc
             theta = theta + self.tau * theta_dot
-        self.state = np.array([x, x_dot, theta, theta_dot])
+        self.state = np.array([x, x_dot[0], theta, theta_dot[0]])
         done = abs(x) > self.x_threshold \
                or theta < -self.theta_threshold_radians \
                or theta > self.theta_threshold_radians
