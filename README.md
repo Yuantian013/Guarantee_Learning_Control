@@ -4,8 +4,9 @@ Model Free Reinforcement Learning with Control Theoretic Guarantee
 # Installation Environment
 
 ```bash
-pip install numpy==1.15.4
-pip install tensorflow==1.12.0
+git clone https://github.com/Yuantian013/Guarantee_Learning_Control
+pip install numpy==1.16.3
+pip install tensorflow==1.13.1
 pip install opencv-python
 pip install cloudpickle
 pip install gym
