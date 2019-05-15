@@ -53,7 +53,6 @@ The hyperparameters, the tasks and the learning algorithm can be change via chan
 # env = 'Point-v1'
 info = ['--num_timesteps=5e6', '--save_path=./Model/'+env]
 ```
-will set entropy coefficient to 0.1, and construct fully connected network with 3 layers with 32 hidden units in each, and 
 ### Example 2. LAC with continous cartpole
 ```
 python main_for_sac.py
