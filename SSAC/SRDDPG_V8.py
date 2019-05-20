@@ -4,7 +4,7 @@ import tensorflow_probability as tfp
 import numpy as np
 import time
 from variant import VARIANT, get_env_from_name, get_policy, get_train
-from utils import get_evaluation_rollouts, evaluate_rollouts, evaluate_training_rollouts
+from .utils import get_evaluation_rollouts, evaluate_rollouts, evaluate_training_rollouts
 import logger
 from safety_constraints import get_safety_constraint_func
 

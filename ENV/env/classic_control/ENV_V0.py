@@ -65,7 +65,7 @@ class CartPoleEnv_cons(gym.Env):
         self.force_mag = 20
         self.tau = 0.02  # seconds between state updates
         self.kinematics_integrator = 'euler'
-        self.cons_pos = 5
+        self.cons_pos = 0
         self.target_pos = 6
         # Angle at which to fail the episode
         self.theta_threshold_radians = 20 * 2 * math.pi / 360
@@ -135,7 +135,7 @@ class CartPoleEnv_cons(gym.Env):
             theta_dot = theta_dot + self.tau * thetaacc
             theta = theta + self.tau * theta_dot
         self.state = np.array([x, x_dot[0], theta, theta_dot[0]])
-        done = x < 0 \
+        done = x < -1 \
                or x > self.x_threshold \
                or theta < -self.theta_threshold_radians \
                or theta > self.theta_threshold_radians
@@ -153,7 +153,7 @@ class CartPoleEnv_cons(gym.Env):
         cost = COST_V1(r1, r2, e1, e2, x, x_dot, theta, theta_dot)
         # cost = 0.1+10*max(0, (self.theta_threshold_radians - abs(theta))/self.theta_threshold_radians) \
         #     #+ 5*max(0, (self.x_threshold - abs(x-self.target_pos))/self.x_threshold)\
-        l_rewards = 20* max((abs(x)-0.8*self.cons_pos), 0)**2/100 #+ 20 *(max((abs(theta)-0.8*self.theta_threshold_radians), 0)/ self.theta_threshold_radians)**2
+        l_rewards = 20* max((abs(x)-self.cons_pos), 0)**2/100 #+ 20 *(max((abs(theta)-0.8*self.theta_threshold_radians), 0)/ self.theta_threshold_radians)**2
         if abs(x)>self.cons_pos:
             violation_of_constraint = 1
         else:
@@ -169,7 +169,7 @@ class CartPoleEnv_cons(gym.Env):
     def reset(self):
         self.state = self.np_random.uniform(low=-0.2, high=0.2, size=(4,))
         # self.state[0] = self.np_random.uniform(low=5, high=6)
-        self.state[0] = self.np_random.uniform(low=1, high=self.cons_pos)
+        self.state[0] = self.np_random.uniform(low=0, high=self.cons_pos)
         self.steps_beyond_done = None
         return np.array(self.state)
 

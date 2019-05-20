@@ -1,2 +1,0 @@
-approxkl,clipfrac,eplenmean,eplrewmean,eprewmean,explained_variance,fps,nupdates,policy_entropy,policy_loss,serial_timesteps,time_elapsed,total_timesteps,value_loss,violation_times
-0.0023874834,0.01694336,65.0,90.77817835483869,0.3643617096774193,-0.04399394989013672,1002,1,2.8318543,-0.004593249,2048,2.043666124343872,2048,1.1073703,26.838709677419356

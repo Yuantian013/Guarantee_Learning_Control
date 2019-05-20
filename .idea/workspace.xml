@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1575bf9-8672-41bb-9b07-0df9d71c7bc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/log/Carcost-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/Carcost-v0/LAC-continuous-25/0/progress.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/0/0.0.monitor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/0/0.0.monitor.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/0/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/0/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENV/env/classic_control/ENV_V0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENV/env/classic_control/ENV_V0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Pointcircle-v0" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Pointcircle-v0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAC/SRDDPG_V8.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAC/SRDDPG_V8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Antcons-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Antcons-v0/ppo2-clip-0.8/0/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Antcons-v0/ppo2-clip-0.8/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Carcost-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/CartPolecons-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/CartPolecons-v0/SAC_lyapunov-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/CartPolecost-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/CartPolecost-v0/SAC_lyapunov-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/HalfCheetahcons-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2-clip-0.1/0/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2-clip-0.1/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2-clip-0.8/0/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2-clip-0.8/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.1/0/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.1/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.1/1/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.1/1/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/0/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/1/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Pointcircle-v0/ppo2_lyapunov-clip-0.8/1/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/PongNoFrameskip-v5/ppo2-clip-0.8/0/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/PongNoFrameskip-v5/ppo2-clip-0.8/0/0.1.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/PongNoFrameskip-v5/ppo2-clip-0.8/0/0.2.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/PongNoFrameskip-v5/ppo2-clip-0.8/0/0.3.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/PongNoFrameskip-v5/ppo2-clip-0.8/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Quadrotorcons-v0/LAC-continuous-25/0/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/safety_constraints.py" beforeDir="false" afterPath="$PROJECT_DIR$/safety_constraints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variant.py" beforeDir="false" afterPath="$PROJECT_DIR$/variant.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,98 +45,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Model_Free_Reinforcement_Learning_with_Control_Theoretic_Guarantee$run.coverage" NAME="run Coverage Results" MODIFIED="1557684019792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Guarantee_Learning_Control$main_for_sac.coverage" NAME="main_for_sac Coverage Results" MODIFIED="1557935800492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Guarantee_Learning_Control$run.coverage" NAME="run Coverage Results" MODIFIED="1557935810708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Guarantee_Learning_Control$main_for_sac.coverage" NAME="main_for_sac Coverage Results" MODIFIED="1558344917980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Guarantee_Learning_Control$my_plottrer.coverage" NAME="my_plottrer Coverage Results" MODIFIED="1558209776102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Guarantee_Learning_Control$run.coverage" NAME="run Coverage Results" MODIFIED="1558094262859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4050">
-              <caret line="270" column="41" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_for_sac.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variant.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppo2_lyapunov/ppo2_lyapunov.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="210" column="72" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppo2_lyapunov/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ENV/env/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="62" column="18" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/policies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1680">
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/point.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,6 +72,7 @@
       <find>Pointcircle</find>
       <find>lamb</find>
       <find>lambda</find>
+      <find>25</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,21 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/tests/test_fixed_sequence.py" />
-        <option value="$PROJECT_DIR$/common/tests/test_fetchreach.py" />
-        <option value="$PROJECT_DIR$/common/tests/test_env_after_learn.py" />
-        <option value="$PROJECT_DIR$/common/tests/test_doc_examples.py" />
-        <option value="$PROJECT_DIR$/common/tests/test_cartpole.py" />
-        <option value="$PROJECT_DIR$/LAC/SRDDPG_V8.py" />
-        <option value="$PROJECT_DIR$/ppo2/model.py" />
-        <option value="$PROJECT_DIR$/ppo2/ppo2.py" />
-        <option value="$PROJECT_DIR$/ppo2_lyapunov/microbatched_model.py" />
-        <option value="$PROJECT_DIR$/ppo2_lyapunov/runner_my_version.py" />
-        <option value="$PROJECT_DIR$/ppo2_lyapunov/test_microbatches.py" />
-        <option value="$PROJECT_DIR$/ex_env/ant_constrain/envs/__init__.py" />
-        <option value="$PROJECT_DIR$/ex_env/ant_constrain/__init__.py" />
-        <option value="$PROJECT_DIR$/ex_env/ant_constrain/envs/ant_cpo.py" />
-        <option value="$PROJECT_DIR$/ex_env/car/__init__.py" />
         <option value="$PROJECT_DIR$/ex_env/car/envs/__init__.py" />
         <option value="$PROJECT_DIR$/ex_env/cartpole_constrain/envs/__init__.py" />
         <option value="$PROJECT_DIR$/ex_env/cartpole_cost/envs/__init__.py" />
@@ -174,10 +112,25 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/ENV/setup.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/main_for_sac.py" />
-        <option value="$PROJECT_DIR$/ENV/env/classic_control/ENV_V0.py" />
         <option value="$PROJECT_DIR$/ENV/env/classic_control/ENV_V1.py" />
         <option value="$PROJECT_DIR$/ppo2_lyapunov/ppo2_lyapunov.py" />
+        <option value="$PROJECT_DIR$/LAC/utils.py" />
+        <option value="$PROJECT_DIR$/main_for_sac.py" />
+        <option value="$PROJECT_DIR$/SAC/SAC_V1.py" />
+        <option value="$PROJECT_DIR$/SAC/SAC_V2.py" />
+        <option value="$PROJECT_DIR$/SAC/SRDDPG_V8.py" />
+        <option value="$PROJECT_DIR$/safety_constraints.py" />
+        <option value="$PROJECT_DIR$/my_plottrer.py" />
+        <option value="$PROJECT_DIR$/ENV/env/classic_control/ENV_V0.py" />
+        <option value="$PROJECT_DIR$/SSAC/SSAC_V1.py" />
+        <option value="$PROJECT_DIR$/SSAC/SAC_V2.py" />
+        <option value="$PROJECT_DIR$/SSAC/SRDDPG_V8.py" />
+        <option value="$PROJECT_DIR$/sppo/model.py" />
+        <option value="$PROJECT_DIR$/sppo/runner.py" />
+        <option value="$PROJECT_DIR$/sppo/runner_my_version.py" />
+        <option value="$PROJECT_DIR$/sppo/sppo.py" />
+        <option value="$PROJECT_DIR$/sppo/microbatched_model.py" />
+        <option value="$PROJECT_DIR$/sppo/test_microbatches.py" />
         <option value="$PROJECT_DIR$/variant.py" />
       </list>
     </option>
@@ -202,42 +155,22 @@
             <path>
               <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
               <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="CPO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
               <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="ENV" type="462c0819:PsiDirectoryNode" />
+              <item name="SAC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
               <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="ENV" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
+              <item name="sppo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
               <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="ENV" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-              <item name="classic_control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="ENV" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-              <item name="mujoco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="LAC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guarantee_Learning_Control" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guarantee_Learning_Control" type="462c0819:PsiDirectoryNode" />
-              <item name="ppo2_lyapunov" type="462c0819:PsiDirectoryNode" />
+              <item name="SSAC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.main_for_sac">
     <configuration name="main_for_sac" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="Model Free Reinforcement Learning with Control Theoretic Guarantee" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,6 +227,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_for_sac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_plottrer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Model Free Reinforcement Learning with Control Theoretic Guarantee" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/nips/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_plottrer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,6 +282,7 @@
     <list>
       <item itemvalue="Python.run" />
       <item itemvalue="Python.main_for_sac" />
+      <item itemvalue="Python.my_plottrer" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -343,23 +299,26 @@
       <workItem from="1557752316367" duration="6689000" />
       <workItem from="1557759384042" duration="2085000" />
       <workItem from="1557840922191" duration="3902000" />
-      <workItem from="1557922508361" duration="6513000" />
+      <workItem from="1557922508361" duration="7227000" />
+      <workItem from="1557996214500" duration="5911000" />
+      <workItem from="1558186596582" duration="2320000" />
+      <workItem from="1558265060432" duration="1907000" />
+      <workItem from="1558344359405" duration="567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23032000" />
+    <option name="totallyTimeSpent" value="34451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4307876" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20883055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +332,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -404,160 +363,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ENV/mujoco/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ENV/atari/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ex_env/cartpole_cost/__init__.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/gym/envs/atari/atari_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1564">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/atari.egg-info/requires.txt" />
-    <entry file="file://$PROJECT_DIR$/ENV/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ENV/mujoco/point.py" />
-    <entry file="file://$PROJECT_DIR$/ENV/classic_control.egg-info/dependency_links.txt" />
-    <entry file="file://$PROJECT_DIR$/ENV/classic_control.egg-info/requires.txt" />
-    <entry file="file://$PROJECT_DIR$/ENV/classic_control.egg-info/top_level.txt" />
-    <entry file="file://$PROJECT_DIR$/ENV/classic_control.egg-info/SOURCES.txt" />
-    <entry file="file://$USER_HOME$/Downloads/gym-soccer-master/gym_soccer/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="306" column="8" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/classic_control/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/atari/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/gym/envs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/targetDirectory/lib/python3.6/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/ant_cpo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/quadrotor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/gym/envs/registration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Model Free Reinforcement Learning with Control Theoretic Guarantee/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="277" column="36" lean-forward="true" selection-start-line="277" selection-start-column="7" selection-end-line="277" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/lockfile/linklockfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bench/monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py" />
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/atari_wrappers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/cg.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ENV/env/atari/atari_env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
@@ -586,13 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="28" lean-forward="true" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/classic_control/ENV_V0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -631,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SAC/SAC_V1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6285">
-          <caret line="430" column="42" selection-start-line="430" selection-start-column="42" selection-end-line="430" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ppo2_lyapunov/defaults.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,26 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/policies.py">
+    <entry file="file://$PROJECT_DIR$/LAC/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppo2_lyapunov/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/point.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -678,7 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ppo2_lyapunov/ppo2_lyapunov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="3045">
           <caret line="210" column="72" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -686,9 +461,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ppo2_lyapunov/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ENV/env/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="915">
           <caret line="62" column="18" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="18" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -696,10 +478,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variant.py">
+    <entry file="file://$PROJECT_DIR$/common/policies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAC/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAC/squash_bijector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAC/SRDDPG_V8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAC/SAC_V1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safety_constraints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/env/mujoco/quadrotor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="287" lean-forward="true" selection-start-line="287" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/dcd6c143e7f5ef3e13fab5f93e5762b9/Message/MessageTemp/143e8e636bd2a02cd71ca4c5278b74d0/File/ENV_V0(1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1737" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/dcd6c143e7f5ef3e13fab5f93e5762b9/Message/MessageTemp/0a24046b29543a7f9776638fc8da8a26/File/ENV_V0(1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/dcd6c143e7f5ef3e13fab5f93e5762b9/Message/MessageTemp/143e8e636bd2a02cd71ca4c5278b74d0/File/ENV_V0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAC/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_plottrer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="168" column="31" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAC/SAC_V2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/dcd6c143e7f5ef3e13fab5f93e5762b9/Message/MessageTemp/0a24046b29543a7f9776638fc8da8a26/File/ENV_V0(2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="167" lean-forward="true" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/CartPolecons-v0/SAC_lyapunov_cons_1/2/progress.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="264" column="26" selection-start-line="264" selection-start-column="26" selection-end-line="264" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -708,18 +610,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main_for_sac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/ENV/env/classic_control/ENV_V0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
-          <caret line="270" column="41" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
+        <state relative-caret-position="1380">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPO/CPO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="271" column="92" selection-start-line="271" selection-start-column="92" selection-end-line="271" selection-end-column="92" />
+          <folding>
+            <element signature="e#19391#19456#0" />
+            <element signature="e#19628#23112#0" />
+            <element signature="e#23187#41460#0" />
+            <element signature="e#41530#44702#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAC/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAC/SAC_V2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAC/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAC/SRDDPG_V8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/test_microbatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/sppo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/runner_my_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/defaults.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sppo/microbatched_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAC/SSAC_V1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAC/squash_bijector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

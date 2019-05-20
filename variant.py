@@ -1,16 +1,16 @@
 import gym
 import datetime
-
+SEED = None
 VARIANT = {
-    'env_name': 'Carcost-v0',
-    'algorithm_name': 'LAC',
-    'additional_description': '-continuous-25',
+    'env_name': 'Pointcircle-v0',
+    'algorithm_name': 'SSAC',
+    'additional_description': '-0.5',
     'evaluate': False,
     'train':True,
     'evaluation_frequency': 2048,
     'num_of_paths': 1,
-    'num_of_trials': 10,
-    'store_last_n_paths': 5,
+    'num_of_trials': 5,
+    'store_last_n_paths': 10,
     'start_of_trial': 0,
 }
 VARIANT['log_path']='/'.join(['./log', VARIANT['env_name'], VARIANT['algorithm_name'] + VARIANT['additional_description']])
@@ -106,6 +106,27 @@ ALG_PARAMS = {
         'target_entropy': None,
         'max_grad_norm': None,
         },
+    'SSAC': {
+        'memory_capacity': int(1e6),
+        'cons_memory_capacity': int(1e6),
+        'min_memory_size': 1000,
+        'batch_size': 256,
+        'labda': 1.,
+        'alpha': 1.,
+        'threshold':0.5,
+        'tau': 5e-3,
+        'lr_a': 1e-4,
+        'lr_c': 3e-4,
+        'lr_l': 3e-4,
+        'gamma': 0.99,
+        'safety_gamma':0.5,
+        'steps_per_cycle': 100,
+        'train_per_cycle': 50,
+        'use_lyapunov': False,
+        'adaptive_alpha': True,
+        'target_entropy': None,
+        'max_grad_norm': None,
+        },
     'CPO': {
         'batch_size':10000,
         'output_format':['csv'],
@@ -119,17 +140,18 @@ ALG_PARAMS = {
         'cliprange':0.2,
         'delta':0.01,
         'form_of_lyapunov': 'l_reward',
-        'safety_threshold': 25.,
+        'safety_threshold': 0.,
         'use_lyapunov': False,
+        'use_adaptive_alpha3': False,
         'use_baseline':False,
         },
     'CPO_lyapunov': {
             'batch_size':10000,
             'output_format':['csv'],
             'gae_lamda':0.95,
-            'safety_gae_lamda':0.2,
+            'safety_gae_lamda':0.5,
             'labda': 1.,
-            'alpha3': 1e-6,
+            'alpha3': 0.2,
             'lr_c': 1e-4,
             'lr_l': 1e-4,
             'gamma': 0.995,
@@ -138,6 +160,7 @@ ALG_PARAMS = {
             'form_of_lyapunov': 'l_reward',
             'safety_threshold': 0.,
             'use_lyapunov': True,
+            'use_adaptive_alpha3': False,
             'use_baseline':False,
             },
     'PDO': {
@@ -240,6 +263,9 @@ def get_policy(name):
     if name == 'SAC'or name == 'SAC_lyapunov':
         from SAC.SAC_V1 import SAC_with_lyapunov
         build_fn = SAC_with_lyapunov
+    elif name=='SSAC':
+        from SSAC.SSAC_V1 import SSAC
+        build_fn = SSAC
     elif 'LAC' in name or 'SAC_cost' in name:
         from LAC.LAC_V1 import LAC
         build_fn = LAC
@@ -255,6 +281,8 @@ def get_policy(name):
 def get_train(name):
     if name == 'SAC'or name == 'SAC_lyapunov':
         from SAC.SAC_V1 import train
+    elif name=='SSAC':
+        from SSAC.SSAC_V1 import train
     elif 'LAC' in name or 'SAC_cost' in name:
         from LAC.LAC_V1 import train
     elif 'CPO' in name or 'PDO' in name:

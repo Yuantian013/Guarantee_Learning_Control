@@ -18,7 +18,7 @@ def judge_mujoco(s_, r, done, info):
 
 def judge_cartpole(s_, r, done, info):
     in_edge = False
-    if abs(s[0]) > 0.8*info['cons_pos']:
+    if abs(s_[0]) > 0.8*info['cons_pos']:
         in_edge = True
 
     return in_edge
