@@ -506,15 +506,16 @@ def eval(variant):
     a_upperbound = env.action_space.high
     a_lowerbound = env.action_space.low
     policy = policy_build_fn(a_dim, s_dim, policy_params)
-
+    if 'CartPole' in env_name:
+        mag = env_params['impulse_mag']
     # For analyse
     Render = env_params['eval_render']
     # Training setting
     t1 = time.time()
-
+    die_count = 0
     for i in range(variant['num_of_trials']):
-        log_path = variant['log_path']+'/eval/' + str(i)
-        policy.restore(variant['log_path']+'/'+ str(i))
+        log_path = variant['log_path']+'/eval/' + str(0)
+        policy.restore(variant['log_path']+'/'+ str(0))
         logger.configure(dir=log_path, format_strs=['csv'])
         s = env.reset()
         if 'Fetch' in env_name or 'Hand' in env_name:
@@ -525,9 +526,14 @@ def eval(variant):
                 env.render()
             a = policy.choose_action(s, True)
             action = a_lowerbound + (a + 1.) * (a_upperbound - a_lowerbound) / 2
+            if j ==100 and 'CartPole'in env_name:
 
+                impulse = mag * np.sign(s[0])
+                # print('impulse comming:',impulse)
             # Run in simulator
-            s_, r, done, info = env.step(action)
+                s_, r, done, info = env.step(action,impulse=impulse)
+            else:
+                s_, r, done, info = env.step(action)
             if 'Fetch' in env_name or 'Hand' in env_name:
                 s_ = np.concatenate([s_[key] for key in s_.keys()])
                 if info['done'] > 0:
@@ -540,6 +546,13 @@ def eval(variant):
                 done = True
             s = s_
             if done:
+                if j < 200:
+
+                    die_count+=1
+                print('episode:', i,
+                      'death:', die_count,
+                      'mag:',mag
+                      )
                 break
     print('Running time: ', time.time() - t1)
     return
